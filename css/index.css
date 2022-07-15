@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Skateparx Filled Demo";
+    src: url('../fonts/Skateparx\ Filled\ Demo\ copy.otf') format('truetype');
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a { color: #720b0b; } 
+
+#skate{
+    padding: auto;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(179, 179, 179); 
+    color: black;
+    font-size: 32px;
+    font-family: "Skateparx Filled Demo";
+    text-align: center;
+    line-height: 50px;
+    border-top: solid 5px rgb(32, 32, 32);
+    border-bottom: solid 5px rgb(32, 32, 32);
+}
+header nav ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: auto;
+    margin: auto;
+}
+
+.skate__imagen{
+    width: 100%;
+    max-width: 250px;
+    margin-top: 15px;
+}
+
+.skate__submenu{
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(179, 179, 179); 
+    margin: 20px;
+    font-size: 24px;
+    border-radius: 100%; background-color: gray; width: 100px; 
+}
+
+
