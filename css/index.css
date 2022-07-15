@@ -24,6 +24,8 @@ a { color: #720b0b; }
     border-top: solid 5px rgb(32, 32, 32);
     border-bottom: solid 5px rgb(32, 32, 32);
 }
+
+#gear
 header nav ul{
     text-decoration: none;
     list-style: none;
