@@ -4,44 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contact.css">
-
+    <title>Skate</title>
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="icon" href="../imgs/LOGO 2.png" type="image/x-icon">
   </head>
 
-    <header>
-      <h2>Menu</h2>
-        <nav>
-          <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="gear.html">Gear</a></li>
-            <li><a href="riders.html">Riders</a></li>
-            <li><a href="spots.html">Spots</a></li>
-          </ul>
-        </nav>
-      </header>
-      
-      <section id="Contact">
-        <h2>Contact</h2>
-            <form><!--PRIMERO FORM-->
-               <label for="Name">Name</label><!--DATO A COMPLETAR-->
-               <input type="text" placeholder="Your name" name="Name" id="Name"/><br><!--CASILLA-->
-              
-               <label for="E-mail">Email</label>
-               <input type="email" placeholder="Your email" name="E-mail" required id="E-mail"/><br>
-    
-              <label>Inquiry</label>
-              <textarea></textarea><br><!--CAJA DE TEXTO-->
-    
-            <input type="submit" value="Send" id="Send"><!--BOTÓN DE ENVIAR-->
-         </section>
-     </main>
-      
-     <footer>
+  <header>
+    <nav> 
+        <a href="../index.html">
+          <img src="../imgs/LOGO.png">
+        </a>
       <ul>
-        <li><a href="https://www.instagram.com/sls/" target="blank">Instagram</a></li>
-        <li><a href="https://m.facebook.com/streetleague/" target="blank">Facebook</a></li>
-        <li><a href="https://www.whatsapp.com/?lang=es" target="blank">Phone</a></li>
+        <li><a href="../index.html"style="text-decoration: none;">Home</a></li>
+        <li><a href="./gear.html" style="text-decoration: none;">Gear</a></li>
+        <li><a href="./riders.html"style="text-decoration: none;">Riders</a></li>
+        <li><a href="./spots.html"style="text-decoration: none;">Spots</a></li>
       </ul>
-    </footer>
-  
+    </nav>
+</header>
+
+    <main>
+      <section id="skate">
+        <a href="https://youtu.be/uZ3Tx70AyU8" target="_blank">
+          <img src="../imgs/LOGO 2.png">
+        </a>
+        <p>skateboard website</p> 
+        <p>everything you need to know</p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+            <form class="grid"><!--PRIMERO FORM-->
+               <div class="grid__hijo--1">
+                 <label for="Name">Name</label><!--DATO A COMPLETAR-->
+                 <br>
+                 <input type="text" placeholder="Your Name" name="Name" id="Name"/><!--CASILLA-->
+               </div>
+             
+               <div class="grid__hijo--2">
+                 <label for="Last Name">Last Name</label><!--DATO A COMPLETAR-->
+                 <br>
+                 <input type="text" placeholder="Your Last Name" name="Last Name" id="Last Name"/><!--CASILLA-->
+               </div>
+               <div class="grid__hijo--3">
+                 <label for="E-mail">Email</label>
+                 <br>
+                 <input type="email" placeholder="Your E-mail" name="E-mail" required id="E-mail"/>
+               </div>
+               <div class="grid__hijo--4">
+                 <label>Inquiry</label>
+                 <br>
+                 <textarea></textarea><!--CAJA DE TEXTO-->
+               </div>
+               <div class="grid__hijo--5">
+                 <input type="submit" value="Send" id="Send"><!--BOTÓN DE ENVIAR-->
+               </div>
+            </form>
+         </section>
+   
+      </main>
+      
+      <footer>
+        <ul>
+          <li><a href="https://www.instagram.com/sls/" target="blank"style="text-decoration: none;">Instagram</a></li>
+          <li><a href="https://www.whatsapp.com/?lang=es" target="blank"style="text-decoration: none;">Phone</a></li>
+          <li><a href="https://m.facebook.com/streetleague/" target="blank"style="text-decoration: none;">Facebook</a></li>
+        </ul>
+      </footer>
+
 </html>
