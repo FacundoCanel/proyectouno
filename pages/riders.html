@@ -5,62 +5,78 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Skate</title>
+  <link rel="stylesheet" href="../css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="../css/index.css"> 
   <link rel="icon" href="../imgs/LOGO 2.png" type="image/x-icon">
 </head>
 
-<header>
-  <nav> 
-    <a href="../index.html">
-      <img src="../imgs/LOGO.png">
-    </a>
-    <ul>
-      <li><a href="../index.html"style="text-decoration: none;">Home</a></li>
-      <li><a href="./gear.html" style="text-decoration: none;">Gear</a></li>
-      <li><a href="./spots.html"style="text-decoration: none;">Spots</a></li>
-      <li><a href="./contact.html"style="text-decoration: none;">Contact</a></li>
-    </ul>
+<body>
+<header><!--MENÚ-->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-end">
+      <a href="../index.html" class="logo__principal">
+        <img src="../imgs/LOGO.png">
+      </a>
+      <button class="navbar-toggler"type="button"data-bs-toggle="collapse"data-bs-target="#opciones">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse"id="opciones">
+      <ul class="navbar-nav">
+         <li class="nav-item">
+            <a class="nav-link" href="../index.html">Menu</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="./gear.html">Gear</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="./spots.html">Spots</a>
+         </li>
+         <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact</a>
+        </li>
+       </ul>
+    </div>
   </nav>
 </header>
 
-  <main>
-    <section id="skate">
-        <a href="https://youtu.be/uZ3Tx70AyU8" target="_blank">
-          <img src="../imgs/LOGO 2.png">
-        </a>
-        <p>skateboard website</p> 
-        <p>everything you need to know</p>
-    </section>
-
-    <section id="riders"><!--TEXTO + IMGS-->
-          <h2>Riders</h2>
-               <div>
-                 <ul>
-                   <li><a href="https://www.instagram.com/gustavoribeiro/" target="blank"style="text-decoration: none;">Gustavo Ribeiro</a></li>           
-                 </ul>
-                 <p>Gustavo Ribeiro is a young Portuguese skate sensation setting Street League alight</p> 
-                 <p>Join him during his rookie pro year as he challenges his heroes on skateboardings biggest stages</p>
-                  <img src="https://tecreview.tec.mx/wp-content/uploads/2021/08/ola-de-calor-tokio-2020.jpg" width="487px" alt="Skate"> <!-- Imagen de portada -->                   
-                  <img src="https://thumbs.web.sapo.io/?W=2100&H=0&crop=center&delay_optim=1&epic=NGM39D101lezhoF8ZJ89+Z2sFWwC6V8deaO2ksGLsf4Gs+OqvlqKG8xC22lOokvx3uygKdq+dYz+3PffaavVTbQ97tQMHI/7X+QRXWwj3nMvu3k=" width="500px" alt="Skate"> <!-- Imagen de portada -->
-               </div>
-               <div>
-                 <ul>
-                   <li><a href="https://www.instagram.com/fgustavoo/" target="blank"style="text-decoration: none;">Felipe Gustavo</a></li>
-                 </ul>
-                 <p>Skateboarder with a long and successful career despite his youth
-                 <p>He has competed in competitions including the X Games and the Tampa Pro Am</p>
-                   <img src="https://phantom-marca.unidadeditorial.es/45e3fe45a972974763421df3e0d4ad4e/assets/multimedia/imagenes/2021/07/25/16271789587306.jpg" width="500px" alt="Skate"> <!-- Imagen de portada -->
-                   <img src="https://img.redbull.com/images/c_fill,w_1200,h_630,g_auto,f_auto,q_auto/redbullcom/2015/09/14/1331747644731_2/felipe-gustavo-portrait-red-bull-hart-lines-2015" width="530px" alt="Skate"> <!-- Imagen de portada -->      
-               </div>   
-          </section>
-        </main>
-      
-        <footer>
-          <ul>
-            <li><a href="https://www.instagram.com/sls/" target="blank" style="text-decoration: none;">Instagram</a></li>
-            <li><a href="https://www.whatsapp.com/?lang=es" target="blank" style="text-decoration: none;">Phone</a></li>
-            <li><a href="https://m.facebook.com/streetleague/" target="blank" style="text-decoration: none;">Facebook</a></li>
-          </ul>
-        </footer>
+<main>
+  <section id="skate">
+      <a href="https://youtu.be/uZ3Tx70AyU8" target="_blank">
+        <img src="../imgs/LOGO 2.png">
+      </a>
+      <p>skateboard website</p> 
+      <p>everything you need to know</p>
+  </section>
+  <section id="riders"><!--TEXTO + IMGS-->
+      <h2>Riders</h2>
+           <div>
+             <ul>
+               <li><a href="https://www.instagram.com/gustavoribeiro/" target="blank"style="text-decoration: none;">Gustavo Ribeiro</a></li>           
+             </ul>
+             <p>Gustavo Ribeiro is a young Portuguese skate sensation setting Street League alight</p> 
+             <p>Join him during his rookie pro year as he challenges his heroes on skateboardings biggest stages</p>
+              <img src="https://tecreview.tec.mx/wp-content/uploads/2021/08/ola-de-calor-tokio-2020.jpg" width="487px" alt="Skate"> <!-- Imagen de portada -->                   
+              <img src="https://thumbs.web.sapo.io/?W=2100&H=0&crop=center&delay_optim=1&epic=NGM39D101lezhoF8ZJ89+Z2sFWwC6V8deaO2ksGLsf4Gs+OqvlqKG8xC22lOokvx3uygKdq+dYz+3PffaavVTbQ97tQMHI/7X+QRXWwj3nMvu3k=" width="500px" alt="Skate"> <!-- Imagen de portada -->
+           </div>
+           <div>
+             <ul>
+               <li><a href="https://www.instagram.com/fgustavoo/" target="blank"style="text-decoration: none;">Felipe Gustavo</a></li>
+             </ul>
+             <p>Skateboarder with a long and successful career despite his youth
+             <p>He has competed in competitions including the X Games and the Tampa Pro Am</p>
+               <img src="https://phantom-marca.unidadeditorial.es/45e3fe45a972974763421df3e0d4ad4e/assets/multimedia/imagenes/2021/07/25/16271789587306.jpg" width="500px" alt="Skate"> <!-- Imagen de portada -->
+               <img src="https://img.redbull.com/images/c_fill,w_1200,h_630,g_auto,f_auto,q_auto/redbullcom/2015/09/14/1331747644731_2/felipe-gustavo-portrait-red-bull-hart-lines-2015" width="530px" alt="Skate"> <!-- Imagen de portada -->      
+           </div>   
+      </section>
+    </main>
   
+    <footer>
+      <ul>
+        <li><a href="https://www.instagram.com/sls/" target="blank" style="text-decoration: none;">Instagram</a></li>
+        <li><a href="https://www.whatsapp.com/?lang=es" target="blank" style="text-decoration: none;">Phone</a></li>
+        <li><a href="https://m.facebook.com/streetleague/" target="blank" style="text-decoration: none;">Facebook</a></li>
+      </ul>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
 </html>
