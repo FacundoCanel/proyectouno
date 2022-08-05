@@ -1,0 +1,13 @@
+/*estilos genericos*/
+@font-face{
+    font-family: "Skateparx Filled Demo";
+    src: url('../fonts/Skateparx\ Filled\ Demo.otf') format('truetype'); 
+}
+*{  padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{ color: #720b0b!important;} 
+.logo__principal{margin-left: 0px; margin-right: 200px;}
+body{ width: 100%; background-image: linear-gradient(white, grey, black);}
+h2{ padding: 20px;}

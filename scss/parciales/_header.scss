@@ -1,0 +1,57 @@
+header{
+    position: fixed;
+    background-color: #535353;
+    width: 100%;
+    border-top: 2px solid black; 
+    border-bottom: 2px solid black; 
+}
+header img{
+    max-width: 200px;
+    margin: 15px;
+    animation-name: logo;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes logo{
+    0% {
+        opacity: 0.5;
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 2;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+header nav ul li{
+    list-style: none;
+    text-align: center;
+    font-family: "Skateparx Filled Demo";
+    margin: 20px;
+    font-size: 32px;
+    border-radius: 100%; background-color: gray; width: 140px; 
+    transition: width 0.5s , background-color 1.5s; 
+}
+header nav ul li:hover{
+    width: 160px;
+    background-color: #000000;
+}
+
+.button{
+    list-style: none;
+    font-family: "Skateparx Filled Demo";
+    color: #720b0b;
+    border: 0px solid;
+    margin: 20px;
+    font-size: 32px;
+    border-radius: 100%; background-color: gray; width: 140px; 
+    transition: width 0.5s , background-color 1.5s; 
+    display: none;
+}

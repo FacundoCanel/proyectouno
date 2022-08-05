@@ -1,0 +1,28 @@
+/*estilos internos riders*/
+#riders img{
+    padding: 24px;
+    border-radius: 200px;
+}
+#riders ul{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0rem;
+    margin-bottom: 0rem;
+}
+#riders ul li{
+    padding: 50px;
+    margin: 30px;
+    list-style: none;
+    border-radius: 100%; background-color: gray; width: 300px;
+    transition: width 0.5s, background-color 1s;
+}
+#riders p{
+    margin: 10px;
+}
+#riders ul li:hover{
+    width: 340px;
+    background-color: #000000;
+
+}
