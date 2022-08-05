@@ -30,7 +30,7 @@ h2 {
 
 header {
   position: fixed;
-  background-color: gray;
+  background-color: #666666;
   width: 100%;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
@@ -103,18 +103,6 @@ header nav ul li:hover {
   text-align: center;
   line-height: 50px;
   border-top: solid 2px #747171;
-  border-bottom: solid 2px #747171;
-}
-
-#gear {
-  padding: auto;
-  margin: auto;
-  height: 100%;
-  width: 100%;
-  color: black;
-  font-family: "Skateparx Filled Demo";
-  font-size: 32px;
-  text-align: center;
   border-bottom: solid 2px #747171;
 }
 
@@ -191,7 +179,7 @@ footer ul li:hover {
   transition: max-width 1s;
 }
 
-#skate img #skate img:hover {
+#skate img:hover {
   max-width: 350px;
 }
 
@@ -298,9 +286,7 @@ footer ul li:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "name inquiry"
- "lastname inquiry"
- "email send";
+  grid-template-areas: "name inquiry" "lastname inquiry" "email send";
   column-gap: 30px;
   row-gap: 25px;
 }
