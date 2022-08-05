@@ -1,6 +1,6 @@
 header{
     position: fixed;
-    background-color: #535353;
+    background-color: $colorPrinipal;
     width: 100%;
     border-top: 2px solid black; 
     border-bottom: 2px solid black; 
@@ -36,7 +36,7 @@ header nav ul li{
     font-family: "Skateparx Filled Demo";
     margin: 20px;
     font-size: 32px;
-    border-radius: 100%; background-color: gray; width: 140px; 
+    border-radius: 100%; background-color: grey; width: 140px; 
     transition: width 0.5s , background-color 1.5s; 
 }
 header nav ul li:hover{
@@ -51,7 +51,7 @@ header nav ul li:hover{
     border: 0px solid;
     margin: 20px;
     font-size: 32px;
-    border-radius: 100%; background-color: gray; width: 140px; 
+    border-radius: 100%; background-color: $colorPrinipal; width: 140px; 
     transition: width 0.5s , background-color 1.5s; 
     display: none;
 }

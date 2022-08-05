@@ -1,15 +1,13 @@
-/*estilos internos de skate*/
-#skate img{
-    margin-top: 180px;
-    margin-bottom: 40px;
-    max-width: 300px;
-    transition: max-width 1s;
-}
-#skate img:hover{
-    max-width: 350px;
-}
-
-/*estilos internos de gear*/
+#gear{
+    padding: auto;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    color: black;
+    font-family: "Skateparx Filled Demo";
+    font-size: 32px;
+    text-align: center;    
+    border-bottom: solid 2px rgb(116, 113, 113);
 .gear__menu{
     padding: 24px;
     text-decoration: none;
@@ -17,18 +15,22 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    .gear__submenu{
+        padding: 24px;
+        margin: 24px;
+        list-style: none;
+        text-align: center;
+        align-items: center;
+        font-size: 32px;
+        border-radius: 100%; background-color: $colorPrinipal; width: 160px;
+        transition: width 0.5s, background-color 1.5s;
+        .gear__submenu:hover{
+            width: 180px;
+            background-color: #000000;
+        }
+    }
 }
-.gear__submenu{
-    padding: 24px;
-    margin: 24px;
-    list-style: none;
-    text-align: center;
-    align-items: center;
-    font-size: 32px;
-    border-radius: 100%; background-color: gray; width: 160px;
-    transition: width 0.5s, background-color 1.5s;
 }
-.gear__submenu:hover{
-    width: 180px;
-    background-color: #000000;
-}
+/*estilos internos de gear*/
+
+
