@@ -286,7 +286,9 @@ footer ul li:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "name inquiry" "lastname inquiry" "email send";
+  grid-template-areas: "name inquiry"
+ "lastname inquiry"
+ "email send";
   column-gap: 30px;
   row-gap: 25px;
 }
