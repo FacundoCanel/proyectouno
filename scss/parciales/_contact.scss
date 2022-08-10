@@ -1,47 +1,43 @@
-/*estilos internos contact*/
-.grid{
-    padding: 30px;
-    margin-left: 200px;
-    margin-right: 200px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "name inquiry"
-    "lastname inquiry"
-    "email send";
-    column-gap: 30px;
-    row-gap: 25px;
+.grid {
+	padding: 30px;
+	margin-left: 200px;
+	margin-right: 200px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-areas: "name inquiry" "lastname inquiry" "email send";
+	column-gap: 30px;
+	row-gap: 25px;
+	label {
+		text-align: start;
+	}
 }
-.grid__hijo--1{
-    grid-area: name;
+.grid__hijo--1 {
+	grid-area: name;
 }
-.grid__hijo--2{
-    grid-area: lastname;
+.grid__hijo--2 {
+	grid-area: lastname;
 }
-.grid__hijo--3{
-    grid-area: email;
+.grid__hijo--3 {
+	grid-area: email;
 }
-.grid__hijo--4{
-    grid-area: inquiry;
+.grid__hijo--4 {
+	grid-area: inquiry;
 }
-.grid__hijo--5{
-    grid-area: send;
+.grid__hijo--5 {
+	grid-area: send;
 }
-.grid label{
-    text-align: start;
+label {
+	padding: 10px;
 }
-label{
-    padding: 10px;
+input {
+	height: 25px;
+	width: 300px;
+	border-radius: 5px;
 }
-input{
-    height: 25px;
-    width: 300px;
-    border-radius: 5px;
-}
-textarea{
-    padding: 5px;
-    height: 150px;
-    width: 300px;
-    border-radius: 15px;
+textarea {
+	padding: 5px;
+	height: 150px;
+	width: 300px;
+	border-radius: 15px;
 }

@@ -1,18 +1,19 @@
-/*estilos interos spots*/
-#spots p{
-    margin-bottom: 20px;
-}
-#spots img{
-    padding: 5px;    
-    width: 100%;
-    max-width: 380px;
-    border-radius: 100px;
-}
-#spots iframe{
-    padding: 5px;
-    margin: 10px;
-    border-radius: 20px;
-    width: 400px;
-    height: 300px;
-    border: 0px;
+#spots {
+	p {
+		margin-bottom: 20px;
+	}
+	img {
+		padding: 5px;
+		width: 100%;
+		max-width: 380px;
+		border-radius: 100px;
+	}
+	iframe {
+		padding: 5px;
+		margin: 10px;
+		border-radius: 20px;
+		width: 400px;
+		height: 300px;
+		border: 0px;
+	}
 }

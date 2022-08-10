@@ -3,7 +3,7 @@
     margin-bottom: 40px;
     max-width: 300px;
     transition: max-width 1s;
-}
-#skate img:hover{
-    max-width: 350px;
+    &:hover{
+         max-width: 350px;
+    }
 }

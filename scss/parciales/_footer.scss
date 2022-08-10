@@ -1,26 +1,29 @@
-footer ul{
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    font-family: "Skateparx Filled Demo";
-    padding-left: 0rem;
-    margin-bottom: 0rem;
-}
-footer ul li{
-    padding: 24px;
-    margin: 24px;
-    list-style: none;
-    text-align: center;
-    font-size: 32px;
-    border-radius: 100%; background-color: $colorPrinipal; width: 170px;
-    transition: width 0.5s, background-color 2s;
-}
-footer ul li:hover{
-    width: 200px;
-    background-color: #ffffff;
-
+footer {
+	ul {
+		text-decoration: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		height: 100%;
+		width: 100%;
+		margin: auto;
+		font-family: "Skateparx Filled Demo";
+		padding-left: 0rem;
+		margin-bottom: 0rem;
+		li {
+			padding: 24px;
+			margin: 24px;
+			list-style: none;
+			text-align: center;
+			font-size: 32px;
+			border-radius: 100%;
+			background-color: $colorPrinipal;
+			width: 170px;
+			transition: width 0.5s, background-color 2s;
+			&:hover {
+				width: 200px;
+				background-color: #ffffff;
+			}
+		}
+	}
 }

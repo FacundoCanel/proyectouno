@@ -28,22 +28,6 @@ h2 {
   padding: 20px;
 }
 
-header {
-  position: fixed;
-  background-color: #666666;
-  width: 100%;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-}
-
-header img {
-  max-width: 200px;
-  margin: 15px;
-  animation-name: logo;
-  animation-duration: 2.5s;
-  animation-iteration-count: infinite;
-}
-
 @keyframes logo {
   0% {
     opacity: 0.5;
@@ -60,6 +44,22 @@ header img {
   100% {
     opacity: 0.5;
   }
+}
+
+header {
+  position: fixed;
+  background-color: #666666;
+  width: 100%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+header img {
+  max-width: 200px;
+  margin: 15px;
+  animation-name: logo;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
 }
 
 header nav ul li {
@@ -195,7 +195,7 @@ footer ul li:hover {
   border-bottom: solid 2px #747171;
 }
 
-#gear .gear__menu {
+.gear__menu {
   padding: 24px;
   text-decoration: none;
   list-style: none;
@@ -204,7 +204,7 @@ footer ul li:hover {
   justify-content: center;
 }
 
-#gear .gear__menu .gear__submenu {
+.gear__submenu {
   padding: 24px;
   margin: 24px;
   list-style: none;
@@ -217,13 +217,12 @@ footer ul li:hover {
   transition: width 0.5s, background-color 1.5s;
 }
 
-#gear .gear__menu .gear__submenu .gear__submenu:hover {
+.gear__submenu:hover {
   width: 180px;
   background-color: #000000;
 }
 
 /*estilos internos de gear*/
-/*estilos internos riders*/
 #riders img {
   padding: 24px;
   border-radius: 200px;
@@ -248,16 +247,15 @@ footer ul li:hover {
   transition: width 0.5s, background-color 1s;
 }
 
-#riders p {
-  margin: 10px;
-}
-
 #riders ul li:hover {
   width: 340px;
   background-color: #000000;
 }
 
-/*estilos interos spots*/
+#riders p {
+  margin: 10px;
+}
+
 #spots p {
   margin-bottom: 20px;
 }
@@ -278,7 +276,6 @@ footer ul li:hover {
   border: 0px;
 }
 
-/*estilos internos contact*/
 .grid {
   padding: 30px;
   margin-left: 200px;
@@ -286,11 +283,13 @@ footer ul li:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "name inquiry"
- "lastname inquiry"
- "email send";
+  grid-template-areas: "name inquiry" "lastname inquiry" "email send";
   column-gap: 30px;
   row-gap: 25px;
+}
+
+.grid label {
+  text-align: start;
 }
 
 .grid__hijo--1 {
@@ -311,10 +310,6 @@ footer ul li:hover {
 
 .grid__hijo--5 {
   grid-area: send;
-}
-
-.grid label {
-  text-align: start;
 }
 
 label {

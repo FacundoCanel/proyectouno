@@ -1,57 +1,63 @@
-header{
-    position: fixed;
-    background-color: rgb(102, 102, 102);
-    width: 100%;
-    border-top: 2px solid black; 
-    border-bottom: 2px solid black; 
+@keyframes logo {
+	0% {
+		opacity: 0.5;
+	}
+	25% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 2;
+	}
+	75% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0.5;
+	}
 }
-header img{
-    max-width: 200px;
-    margin: 15px;
-    animation-name: logo;
-    animation-duration: 2.5s;
-    animation-iteration-count: infinite;
+header {
+	position: fixed;
+	background-color: #666666;
+	width: 100%;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	img {
+		max-width: 200px;
+		margin: 15px;
+		animation-name: logo;
+		animation-duration: 2.5s;
+		animation-iteration-count: infinite;
+	}
+	nav {
+		ul {
+			li {
+				list-style: none;
+				text-align: center;
+				font-family: "Skateparx Filled Demo";
+				margin: 20px;
+				font-size: 32px;
+				border-radius: 100%;
+				background-color: grey;
+				width: 140px;
+				transition: width 0.5s , background-color 1.5s;
+				&:hover {
+					width: 160px;
+					background-color: #000000;
+				}
+			}
+		}
+	}
 }
-@keyframes logo{
-    0% {
-        opacity: 0.5;
-    }
-    25% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 2;
-    }
-    75% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0.5;
-    }
-}
-
-header nav ul li{
-    list-style: none;
-    text-align: center;
-    font-family: "Skateparx Filled Demo";
-    margin: 20px;
-    font-size: 32px;
-    border-radius: 100%; background-color: grey; width: 140px; 
-    transition: width 0.5s , background-color 1.5s; 
-}
-header nav ul li:hover{
-    width: 160px;
-    background-color: #000000;
-}
-
-.button{
-    list-style: none;
-    font-family: "Skateparx Filled Demo";
-    color: #720b0b;
-    border: 0px solid;
-    margin: 20px;
-    font-size: 32px;
-    border-radius: 100%; background-color: $colorPrinipal; width: 140px; 
-    transition: width 0.5s , background-color 1.5s; 
-    display: none;
+.button {
+	list-style: none;
+	font-family: "Skateparx Filled Demo";
+	color: #720b0b;
+	border: 0px solid;
+	margin: 20px;
+	font-size: 32px;
+	border-radius: 100%;
+	background-color: gray;
+	width: 140px;
+	transition: width 0.5s , background-color 1.5s;
+	display: none;
 }
