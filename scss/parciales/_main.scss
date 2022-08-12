@@ -1,50 +1,48 @@
-/*estilos internos de skate*/
-#skate{
-    height: 700px;
-    width: 100%;
-    color: black;
-    font-family: "Skateparx Filled Demo";
-    font-size: 32px;
-    text-align: center;
-    line-height: 50px;
-    border-top: solid 2px rgb(116, 113, 113);
-    border-bottom: solid 2px rgb(116, 113, 113);
+$estilos:(
+padding: auto,
+margin: auto,
+height: 100%,
+width: 100%,
+color: black,
+font-family: "Skateparx Filled Demo",
+font-size: 32px,
+text-align: center,
+line-height: 50px,
+border-top: solid 2px rgb(116, 113, 113),
+border-bottom: solid 2px rgb(116, 113, 113),
+);
+
+#skate {
+height: 700px;
+line-height: map-get($estilos, line-height);
+width: map-get($estilos, width);
+color: map-get($estilos, color);
+font-family: map-get($estilos, font-family);
+font-size: map-get($estilos, font-size);
+text-align: map-get($estilos, text-align);
+border-top: map-get($estilos, border-top);
+border-bottom: map-get($estilos, border-bottom);
 }
 
 
-#riders{
-    padding: auto;
-    margin: auto;
-    height: 100%;
-    width: 100%;
-    color: black;
-    font-family: "Skateparx Filled Demo";
-    font-size: 32px;
-    text-align: center;    
-    border-bottom: solid 2px rgb(116, 113, 113);
+#gear {
+padding: map-get($estilos, padding);
+margin: map-get($estilos, margin);
+height: map-get($estilos, height);
+width: map-get($estilos, width);
+color: map-get($estilos, color);
+font-family: map-get($estilos, font-family);
+font-size: map-get($estilos, font-size);
+text-align: map-get($estilos, text-align);
+border-bottom: map-get($estilos, border-bottom);
 }
-
-#spots{
-    padding: auto;
-    margin: auto;
-    height: 100%;
-    width: 100%;
-    color: black;
-    font-family: "Skateparx Filled Demo";
-    font-size: 32px;
-    text-align: center;    
-    border-bottom: solid 2px rgb(116, 113, 113);
+#riders {
+@extend #gear;
 }
-
-#contact{
-    padding: auto;
-    margin: auto;
-    height: 100%;
-    width: 100%;
-    color: white;
-    font-family: "Skateparx Filled Demo";
-    font-size: 32px;
-    text-align: center;    
-    border-bottom: solid 2px rgb(116, 113, 113);
+#spots {
+@extend #gear;
 }
-
+#contact {
+@extend #gear;
+color: white;
+}
