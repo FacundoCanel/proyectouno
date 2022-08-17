@@ -1,16 +1,34 @@
 /*Mobile*/
-@media screen and (max-width:599px) {
-    .gear__menu{
-        flex-direction: column;
-        align-items: center;
+@media screen and (max-width: 599px) {
+    header{
+      width: 100%;
     }
-    .grid{
-        display: flex;
-        flex-direction: column;
-        margin: 0%;
+    header nav ul li{
+      align-items: center;
     }
-    footer ul{
-        flex-direction: column;
-        align-items: center;
+    #riders img{
+      max-width: 100%;
     }
-}
+    .gear__menu {
+      flex-direction: column;
+      align-items: center;
+    }
+    #spots iframe{
+      padding: 0px;
+      margin: 0px;  
+      width: 100%;
+    }
+    .grid {
+      display: flex;
+      flex-direction: column;
+      margin: 0px;
+      padding: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+    
+    }
+    footer ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
